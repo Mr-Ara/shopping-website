@@ -1,6 +1,9 @@
 header{
 font-size: 1em;
+background-color: #16161c;
 }
+
+/* navigaton section */
 
 header nav{
 display: flex;
@@ -15,7 +18,7 @@ align-items: center;
 }
 
 header nav .nav-right a{
-    color: #444;
+    color: #00faa7;
     padding: 5px 10px;
     margin: 0px 10px;
     font-size: 1.1em;
@@ -24,7 +27,7 @@ header nav .nav-right a{
 
 
 header nav .nav-left .register-login-btn{
-    border: 1px solid #666;
+    border: 1px solid #00faa7;
     margin: 0px 10px;
     padding: 5px 8px;
     border-radius: 5px;
@@ -35,11 +38,69 @@ header nav .nav-left .register-login-btn{
 
 header nav .nav-left .register-login-btn i{
 margin: 7px;
-color: #444;
+color: #00faa7;
 }
 
 header nav .nav-left .register-login-btn a{
-color: #444;
+color: #00faa7;
 margin: 0px 10px;
 font-size: 0.9em;
 }
+
+/* header section */
+
+ .slider{
+position: relative;
+font-size: 1em;
+height: 400px;
+}
+
+
+
+ .slides .item{
+position: relative;
+display: none;
+}
+ .slides .active{
+display: block;
+animation-name: fadeIn;
+animation-duration: 2s;
+}
+
+ .slides .item img{
+width: 100%;
+height: 400px;
+}
+ .slides .item span{
+position: absolute;
+right: 10%;
+top: 40%;
+font-size: 1.5em;
+width: 30%;
+color: #333;
+background-color: #00faa7;
+opacity: 0.7;
+border-radius: 15px 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.slider .buttons{
+    position:absolute;
+    z-index: 1;
+    left: 60px;
+    bottom: 30px;
+    }
+
+.slider .buttons i{
+    color: rgb(255, 255, 255,0.8);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider .buttons i:hover{
+    color:rgb(255, 255, 255 ,0.4);
+    font-size: 1.15em;
+    
+}
+
