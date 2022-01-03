@@ -33,3 +33,5 @@ setInterval(() => {
     }
     setSlides(`slide${slideIndex}`,slideIndex)
 }, 6000);
+
+
