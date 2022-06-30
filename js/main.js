@@ -35,3 +35,9 @@ setInterval(() => {
 }, 6000);
 
 
+
+if (user){
+document.getElementById("user_profile").setAttribute("href" , "./panel.html") 
+}else{document.getElementById("user_profile").setAttribute("href" , "./login.html") }
+
+
